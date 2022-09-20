@@ -30,5 +30,5 @@ refsButtonChangeColor.addEventListener("click", onClick);
 function onClick(event) {
   refsBody.style.backgroundColor = getRandomHexColor();
   refsSpanValue.textContent = refsBody.style.backgroundColor;
-  console.dir(refsSpanValue.textContent);
+  // console.dir(refsSpanValue.textContent);
 }
