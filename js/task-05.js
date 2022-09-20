@@ -11,7 +11,6 @@ console.log(refsOutput);
 refsInput.addEventListener("input", onInputSubmit);
 
 function onInputSubmit(event) {
-  refsOutput.textContent = event.target.value.trim();
-  if (event.target.value === "") refsOutput.textContent.trim() = "Anonymous";
+  refsOutput.textContent = event.target.value;
+  if (event.target.value.trim() === "") refsOutput.textContent = "Anonymous";
 }
-
